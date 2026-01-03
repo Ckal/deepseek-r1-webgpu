@@ -1,0 +1,18 @@
+name: deepseek-r1-webgpu
+type: gradio-space
+sdk: static
+
+metadata:
+  space_id: Chris4K/deepseek-r1-webgpu
+  original_url: https://huggingface.co/spaces/Chris4K/deepseek-r1-webgpu
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
